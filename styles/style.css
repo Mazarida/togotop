@@ -1,0 +1,619 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Bold.eot');
+  src: local('Manrope Bold'), local('Manrope-Bold'),
+  url('../fonts/Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Manrope-Bold.woff2') format('woff2'),
+  url('../fonts/Manrope-Bold.woff') format('woff'),
+  url('../fonts/Manrope-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Semibold.eot');
+  src: local('Manrope Semibold'), local('Manrope-Semibold'),
+  url('../fonts/Manrope-Semibold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Manrope-Semibold.woff2') format('woff2'),
+  url('../fonts/Manrope-Semibold.woff') format('woff'),
+  url('../fonts/Manrope-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Regular.eot');
+  src: local('Manrope Regular'), local('Manrope-Regular'),
+  url('../fonts/Manrope-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Manrope-Regular.woff2') format('woff2'),
+  url('../fonts/Manrope-Regular.woff') format('woff'),
+  url('../fonts/Manrope-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Light.eot');
+  src: local('Manrope Light'), local('Manrope-Light'),
+  url('../fonts/Manrope-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Manrope-Light.woff2') format('woff2'),
+  url('../fonts/Manrope-Light.woff') format('woff'),
+  url('../fonts/Manrope-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Thin.eot');
+  src: local('Manrope Thin'), local('Manrope-Thin'),
+  url('../fonts/Manrope-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Manrope-Thin.woff2') format('woff2'),
+  url('../fonts/Manrope-Thin.woff') format('woff'),
+  url('../fonts/Manrope-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-Medium.eot');
+  src: local('Manrope Medium'), local('Manrope-Medium'),
+  url('../fonts/Manrope-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Manrope-Medium.woff2') format('woff2'),
+  url('../fonts/Manrope-Medium.woff') format('woff'),
+  url('../fonts/Manrope-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../fonts/Manrope-ExtraBold.eot');
+  src: local('Manrope ExtraBold'), local('Manrope-ExtraBold'),
+  url('../fonts/Manrope-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Manrope-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Manrope-ExtraBold.woff') format('woff'),
+  url('../fonts/Manrope-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-BoldItalic.eot');
+  src: local('Inter Bold Italic'), local('Inter-BoldItalic'),
+  url('../fonts/Inter-BoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-BoldItalic.woff2') format('woff2'),
+  url('../fonts/Inter-BoldItalic.woff') format('woff'),
+  url('../fonts/Inter-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-MediumItalic.eot');
+  src: local('Inter Medium Italic'), local('Inter-MediumItalic'),
+  url('../fonts/Inter-MediumItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-MediumItalic.woff2') format('woff2'),
+  url('../fonts/Inter-MediumItalic.woff') format('woff'),
+  url('../fonts/Inter-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ThinItalicBETA.eot');
+  src: local('Inter Thin Italic BETA'), local('Inter-ThinItalicBETA'),
+  url('../fonts/Inter-ThinItalicBETA.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-ThinItalicBETA.woff2') format('woff2'),
+  url('../fonts/Inter-ThinItalicBETA.woff') format('woff'),
+  url('../fonts/Inter-ThinItalicBETA.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.eot');
+  src: local('Inter Regular'), local('Inter-Regular'),
+  url('../fonts/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-Regular.woff2') format('woff2'),
+  url('../fonts/Inter-Regular.woff') format('woff'),
+  url('../fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Black.eot');
+  src: local('Inter Black'), local('Inter-Black'),
+  url('../fonts/Inter-Black.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-Black.woff2') format('woff2'),
+  url('../fonts/Inter-Black.woff') format('woff'),
+  url('../fonts/Inter-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-BlackItalic.eot');
+  src: local('Inter Black Italic'), local('Inter-BlackItalic'),
+  url('../fonts/Inter-BlackItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-BlackItalic.woff2') format('woff2'),
+  url('../fonts/Inter-BlackItalic.woff') format('woff'),
+  url('../fonts/Inter-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-LightBETA.eot');
+  src: local('Inter Light BETA'), local('Inter-LightBETA'),
+  url('../fonts/Inter-LightBETA.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-LightBETA.woff2') format('woff2'),
+  url('../fonts/Inter-LightBETA.woff') format('woff'),
+  url('../fonts/Inter-LightBETA.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBold.eot');
+  src: local('Inter Semi Bold'), local('Inter-SemiBold'),
+  url('../fonts/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+  url('../fonts/Inter-SemiBold.woff') format('woff'),
+  url('../fonts/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraBoldItalic.eot');
+  src: local('Inter Extra Bold Italic'), local('Inter-ExtraBoldItalic'),
+  url('../fonts/Inter-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-ExtraBoldItalic.woff2') format('woff2'),
+  url('../fonts/Inter-ExtraBoldItalic.woff') format('woff'),
+  url('../fonts/Inter-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Bold.eot');
+  src: local('Inter Bold'), local('Inter-Bold'),
+  url('../fonts/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-Bold.woff2') format('woff2'),
+  url('../fonts/Inter-Bold.woff') format('woff'),
+  url('../fonts/Inter-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraLightItalicBETA.eot');
+  src: local('Inter Extra Light Italic BETA'), local('Inter-ExtraLightItalicBETA'),
+  url('../fonts/Inter-ExtraLightItalicBETA.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-ExtraLightItalicBETA.woff2') format('woff2'),
+  url('../fonts/Inter-ExtraLightItalicBETA.woff') format('woff'),
+  url('../fonts/Inter-ExtraLightItalicBETA.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraLightBETA.eot');
+  src: local('Inter Extra Light BETA'), local('Inter-ExtraLightBETA'),
+  url('../fonts/Inter-ExtraLightBETA.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-ExtraLightBETA.woff2') format('woff2'),
+  url('../fonts/Inter-ExtraLightBETA.woff') format('woff'),
+  url('../fonts/Inter-ExtraLightBETA.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraBold.eot');
+  src: local('Inter Extra Bold'), local('Inter-ExtraBold'),
+  url('../fonts/Inter-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+  url('../fonts/Inter-ExtraBold.woff') format('woff'),
+  url('../fonts/Inter-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ThinBETA.eot');
+  src: local('Inter Thin BETA'), local('Inter-ThinBETA'),
+  url('../fonts/Inter-ThinBETA.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-ThinBETA.woff2') format('woff2'),
+  url('../fonts/Inter-ThinBETA.woff') format('woff'),
+  url('../fonts/Inter-ThinBETA.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-LightItalicBETA.eot');
+  src: local('Inter Light Italic BETA'), local('Inter-LightItalicBETA'),
+  url('../fonts/Inter-LightItalicBETA.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-LightItalicBETA.woff2') format('woff2'),
+  url('../fonts/Inter-LightItalicBETA.woff') format('woff'),
+  url('../fonts/Inter-LightItalicBETA.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Italic.eot');
+  src: local('Inter Italic'), local('Inter-Italic'),
+  url('../fonts/Inter-Italic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-Italic.woff2') format('woff2'),
+  url('../fonts/Inter-Italic.woff') format('woff'),
+  url('../fonts/Inter-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBoldItalic.eot');
+  src: local('Inter Semi Bold Italic'), local('Inter-SemiBoldItalic'),
+  url('../fonts/Inter-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-SemiBoldItalic.woff2') format('woff2'),
+  url('../fonts/Inter-SemiBoldItalic.woff') format('woff'),
+  url('../fonts/Inter-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Medium.eot');
+  src: local('Inter Medium'), local('Inter-Medium'),
+  url('../fonts/Inter-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Inter-Medium.woff2') format('woff2'),
+  url('../fonts/Inter-Medium.woff') format('woff'),
+  url('../fonts/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* This stylesheet generated by Transfonter (https://transfonter.org) on June 26, 2017 11:20 AM */
+
+@font-face {
+  font-family: 'Circe';
+  src: url('../fonts/Circe-Regular.eot');
+  src: local('Circe'), local('Circe-Regular'),
+  url('../fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-Regular.woff') format('woff'),
+  url('../fonts/Circe-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url('../fonts/Circe-ExtraLight.eot');
+  src: local('Circe ExtraLight'), local('Circe-ExtraLight'),
+  url('../fonts/Circe-ExtraLight.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-ExtraLight.woff') format('woff'),
+  url('../fonts/Circe-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url('../fonts/Circe-Thin.eot');
+  src: local('Circe Thin'), local('Circe-Thin'),
+  url('../fonts/Circe-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-Thin.woff') format('woff'),
+  url('../fonts/Circe-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url('../fonts/Circe-Light.eot');
+  src: local('Circe Light'), local('Circe-Light'),
+  url('../fonts/Circe-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-Light.woff') format('woff'),
+  url('../fonts/Circe-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url('../fonts/Circe-Bold.eot');
+  src: local('Circe Bold'), local('Circe-Bold'),
+  url('../fonts/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-Bold.woff') format('woff'),
+  url('../fonts/Circe-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circe';
+  src: url('../fonts/Circe-ExtraBold.eot');
+  src: local('Circe ExtraBold'), local('Circe-ExtraBold'),
+  url('../fonts/Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Circe-ExtraBold.woff') format('woff'),
+  url('../fonts/Circe-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  margin:0;
+  padding: 0;
+  background-color: #141414;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  background-image: url("../img/bg.svg");
+  background-position: -100px -365px ;
+  background-size: 1022px 933px;
+  background-repeat: no-repeat;
+  max-width: 1300px;
+  padding: 0 106px;
+  margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #141414;
+  border: 2px solid;
+  border-radius: 100px;
+  min-width: 188px;
+  padding: 10px 42px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  height: 40px;
+  box-sizing: border-box;
+  text-decoration: none;
+  letter-spacing: -0.4px;
+}
+
+.page-header {
+  padding: 27px 0;
+}
+
+.page-header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.header-logo{
+  margin-right: 27px;
+}
+
+.header-slogan {
+  font-family: 'Manrope',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+  letter-spacing: -0.4px;
+}
+
+.header-enter {
+  border-color: #7F5AF0;
+  margin-left: auto;
+}
+
+.header-register {
+  border-color: #2CB67D;
+  margin-left: 17px;
+}
+
+.navigation {
+  background-color: #191919;
+  opacity: 0.9;
+  border: 2px solid #404040;
+  border-radius: 20px;
+  padding: 8px 50px 11px;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-link {
+  text-decoration: none;
+  font-family: 'Manrope',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  color: #FFFFFF;
+  padding: 6px 23px 9px;
+}
+
+.dropdown {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Manrope',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 23px;
+  color: #FFFFFF;
+  padding: 6px 23px 9px;
+}
+
+.dropdown-link svg{
+  display: block;
+  margin-left: 17px;
+  margin-top: 5px;
+}
+
+.button-form {
+  background-color: rgba(44, 182, 125, 0.3);
+  border-radius: 100px
+}
+
+.cta {
+  padding: 42px 42px 42px 0;
+  background-image: url("../img/cta.png");
+  background-position: 400px -20px;
+  background-size: 978px 593px;
+  background-repeat: no-repeat;
+  margin: 0 -42px 50px 0;
+}
+
+.cta-caption {
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 139%;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  max-width: 800px;
+  margin: 0 0 50px;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-accent-violet {
+  color: #7F5AF0;
+}
+
+.text-accent-green {
+  color: #2CB67D;
+}
+
+.cta-text {
+  font-family: 'Circe', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 167%;
+  color: #FFFFFF;
+  max-width: 502px;
+  margin: 0 0 74px 4px;
+}
+
+.cta-button {
+  display: block;
+  width: max-content;
+  text-decoration: none;
+  font-family: 'Circe', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 160%;
+  color: #FFFFFF;
+  background-color: #7F5AF0;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  padding: 21px 43px;
+}
+
+.counters {
+  border: 1px solid #404040;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 18px 39px;
+}
+
+
+.counters-digits {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 132%;
+  margin-right: 9px;
+}
+
+.green {
+  color: #2CB67D;
+}
+
+.violet {
+  color: #7F5AF0;
+}
+
+.counters-bg {
+  display:inline-block;
+  background-color: #262626;
+  border-radius: 7px;
+  text-align: center;
+  width: 30px;
+  margin-right: 4px;
+}
+.counters-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.counters-legend {
+  font-family: 'Circe', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
